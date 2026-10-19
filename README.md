@@ -13,6 +13,7 @@ The available languages are Japanese, English, and Chinese. (ja,en,zh)
 - **Layout Preservation**: Translate scanned PDFs while preserving their original layout and formatting as much as possible.
 - **Privacy-Friendly Local Processing**: Perform OCR and translation locally using AI models, reducing the need to send document contents to external services.
 - **Runs on MacBooks**: Designed to run locally on MLX-compatible macOS devices, including MacBooks with Apple Silicon.
+- **Recovery Support**: Resume processing from where it left off if the program is interrupted, as long as the necessary intermediate data remains in the output directory.
 
 # Supported Environment
 
