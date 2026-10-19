@@ -8,6 +8,12 @@ The available languages are Japanese, English, and Chinese. (ja,en,zh)
 > [!NOTE]
 > This project is still under development, and some features may not work as expected.
 
+# Features
+
+- **Layout Preservation**: Translate scanned PDFs while preserving their original layout and formatting as much as possible.
+- **Privacy-Friendly Local Processing**: Perform OCR and translation locally using AI models, reducing the need to send document contents to external services.
+- **Runs on MacBooks**: Designed to run locally on MLX-compatible macOS devices, including MacBooks with Apple Silicon.
+
 # Supported Environment
 
 - Currently supports macOS environments where MLX is supported.
