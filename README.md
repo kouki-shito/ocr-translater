@@ -5,6 +5,9 @@ It uses [PaddleOCR](https://github.com/PADDLEPADDLE/PADDLEOCR) for OCR and [tran
 Currently, it only supports general horizontal text, as well as paragraphs and paragraph titles. 
 The available languages are Japanese, English, and Chinese. (ja,en,zh)
 
+> [!NOTE]
+> This project is still under development, and some features may not work as expected.
+
 # Supported Environment
 
 - Currently supports macOS environments where MLX is supported.
