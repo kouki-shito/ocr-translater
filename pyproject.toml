@@ -1,0 +1,22 @@
+[project]
+name = "ocr-translator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mlx-lm>=0.31.3",
+    "mlx-vlm>=0.3.11",
+    "natsort>=8.4.0",
+    "numpy>=2.3.5",
+    "opencv-python>=5.0.0.93",
+    "paddleocr[all]>=3.7.0",
+    "paddlepaddle==3.3.0",
+    "pymupdf>=1.28.2",
+]
+
+[tool.uv]
+package = true
+
+[project.scripts]
+oc = "app.main:main"
